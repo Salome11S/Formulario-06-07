@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background: url('https://www.yubrain.com/wp-content/uploads/2021/09/ceiling-painting-4912734_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: helvetica;
+    height: 100vh;
+}
+
+nav {
+    background-color: #FFEDDB;
+    width: 100%;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.lista a{
+    text-decoration: none;
+    color: #A97155;
+    display: block;
+    padding: 15px 50px;
+}
+
+.lista {
+    display: inline-block;
+}
+
+.lista-r {
+    float: right;
+}
+
+.lista a:hover {
+    background-color: #E4D1B9;
+}
+
+main {
+    text-align: center;
+}
+
+img {
+    margin-top: 10px;
+    border-radius: 50%;
+    height: 150px;
+    border: 10px solid black;
+}
+
+p {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+    margin: 5px;
+    background-color: #FDF6EC;
+    color: #A97155;
+}
+
+label {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#textarea {
+    border: 0;
+    font-size: 18px;
+    margin: 5px;
+    background-color: #FDF6EC;
+    color: black;
+}
+
+button[type="submit"] {
+    background: #A97155;
+    color: black;
+    padding: 10px;
+    font-family: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 2%;
+}
+
+input::placeholder {
+    color: #A97155;
+}
+
+input:focus {
+    outline: none;
+    background-color: #FDF6EC;
+    color: #A97155;
+}
+
+
+#main2 {
+    margin-top: 10%;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 200px;
+   text-align: center;
+}
+
+
+
